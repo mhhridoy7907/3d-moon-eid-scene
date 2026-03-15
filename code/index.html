@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moon Eid Scene</title>
+<style>
+  body{
+    margin:0;
+    overflow:hidden;
+    background:black;
+    color:white;
+    font-family:sans-serif;
+  }
+  canvas{
+    display:block;
+  }
+  #footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align:center;
+    font-size:18px;
+    color:#00ffff;
+    font-family: monospace;
+  }
+
+  /* ----- Eid Card ----- */
+  #eid-card {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.6);
+    border: 2px solid #00ffff;
+    border-radius: 15px;
+    padding: 20px 30px;
+    color: #ffffaa;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+  }
+</style>
+</head>
+<body>
+
+<div id="eid-card">
+  May this Eid bring peace, happiness, and prosperity to your home.<br>
+  Eid Mubarak to you and your loved ones.
+</div>
+
+<div id="footer">@MH2</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/geometries/TextGeometry.js"></script>
+
+
+  
+  <script src="funtion.js"></script>
+
+</body>
+</html>
