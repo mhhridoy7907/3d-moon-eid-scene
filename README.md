@@ -6,14 +6,11 @@ An interactive 3D Eid greeting web scene built with **Three.js**. Celebrate Eid 
 
 ---
 
-##  Demo Video
+## 🎥 Demo Video
 
-Watch the live demo of the scene:
+Watch the live demo on YouTube:
 
-<video width="600" controls>
-  <source src="dd.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the demo](https://img.youtube.com/vi/5PXlXtyQPOc/0.jpg)](https://youtu.be/5PXlXtyQPOc)
 
 ---
 
